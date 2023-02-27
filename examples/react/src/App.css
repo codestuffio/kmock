@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+.card {
+  padding: 2em;
+  border: 1px solid rgba(240, 113, 120, .5);
+  border-radius: 8px;
+  box-shadow: 0 0 4em rgba(240, 113, 120, .2);
+}
+
+.card code {
+  font-weight: bolder;
+  font-size: 1.1em;;
+}
+
+.card .sub-section {
+  padding: .5em;
+  display: flex;
+  border: 1px solid rgba(137, 221, 255, .5);
+  border-radius: 4px;
+}
+
+.read-the-docs {
+  color: #89ddff;
+}
+
